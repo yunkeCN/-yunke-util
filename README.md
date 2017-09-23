@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.org/yunkeCN/utils.svg?branch=master)](https://travis-ci.org/yunkeCN/utils)
+
 # util
 yunke帮助函数库
 
