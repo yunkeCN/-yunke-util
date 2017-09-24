@@ -9,8 +9,7 @@
   "scripts": {
     "test": "nyc ava",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "build": "babel src -d src -s",
-    "release": "npm test && npm run build"
+    "build": "babel src -d src -s"
     
   },
   "repository": {
