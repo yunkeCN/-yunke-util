@@ -2,6 +2,9 @@
   "name": "@yunke/utils",
   "version": "1.0.0",
   "description": "yunke帮助函数库",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {
     "test": "ava"
