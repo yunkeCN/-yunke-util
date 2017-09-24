@@ -7,9 +7,11 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "ava",
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "build": "babel src -d src -s",
     "release": "npm test && npm run build"
+    
   },
   "repository": {
     "type": "git",
@@ -37,11 +39,16 @@
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.0",
+    "coveralls": "^2.13.1",
     "eslint": "^4.7.1",
     "eslint-plugin-react": "^7.3.0",
+    "istanbul": "^0.4.5",
     "redux": "^3.7.2"
   },
   "peerDependencies": {
     "redux": "x"
+  },
+  "dependencies": {
+    "nyc": "^11.2.1"
   }
 }
