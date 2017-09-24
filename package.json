@@ -1,6 +1,6 @@
 {
   "name": "cexoso_utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "yunke帮助函数库",
   "publishConfig": {
     "access": "public"
