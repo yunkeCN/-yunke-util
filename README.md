@@ -1,6 +1,6 @@
 
 [![Build Status](https://travis-ci.org/yunkeCN/utils.svg?branch=master)](https://travis-ci.org/yunkeCN/utils)
-
+[![Coverage Status](https://coveralls.io/repos/github/yunkeCN/utils/badge.svg?branch=master)](https://coveralls.io/github/yunkeCN/utils?branch=master)
 # util
 yunke帮助函数库
 
