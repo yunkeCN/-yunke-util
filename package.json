@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "ava",
-    "build": "babel src -d src -s"
+    "build": "babel src -d src -s && echo 22222222222"
   },
   "repository": {
     "type": "git",
