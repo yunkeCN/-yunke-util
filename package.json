@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "ava",
-    "build": "babel src -d src -s && echo 22222222222"
+    "build": "babel src -d src -s && echo 22222222222",
+    "runall": "npm test && npm run build"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
   "devDependencies": {
     "ava": "^0.22.0",
     "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.0",
     "eslint": "^4.7.1",
     "eslint-plugin-react": "^7.3.0",
