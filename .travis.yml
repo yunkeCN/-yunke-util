@@ -4,7 +4,11 @@ node_js:
 cache:
   directories:
   - node_modules
-script: npm run release
+script: 
+  - npm test
+  - npm build
+after_script:
+  - npm run coverage
 deploy:
   provider: npm
   email: 285516193@qq.com
