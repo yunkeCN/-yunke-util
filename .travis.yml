@@ -12,4 +12,3 @@ deploy:
   on:
     tags: true
     repo: yunkeCN/utils
-  tag: next
