@@ -10,7 +10,6 @@
     "test": "nyc ava",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "build": "babel src -d . -s"
-    
   },
   "repository": {
     "type": "git",
@@ -38,6 +37,7 @@
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.0",
+    "babel-preset-env": "^1.6.0",
     "coveralls": "^2.13.1",
     "eslint": "^4.7.1",
     "eslint-plugin-react": "^7.3.0",
